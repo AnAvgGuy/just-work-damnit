@@ -1,6 +1,5 @@
 
-const ws = new WebSocket("wss://0.0.0.0:8080",{transports: ['websocket']}
-);
+const ws = new WebSocket("wss://192.168.1.94:8080");
 /*"ws://localhost:8081"*/
 /*"ws://192.168.1.94:8081/both"*/
 ws.addEventListener("open", () => {
